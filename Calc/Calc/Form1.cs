@@ -16,5 +16,13 @@ namespace Calc
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double first = Convert.ToDouble(textBox1.Text);
+            double second = Convert.ToDouble(textBox2.Text);
+            textBox3.Text = (first + second).ToString();
+
+        }
     }
 }
