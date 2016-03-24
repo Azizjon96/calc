@@ -54,9 +54,13 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="ICalculate.cs" />
+    <Compile Include="IoneCalculate.cs" />
     <Compile Include="Multiply.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SingleCalcFactory.cs" />
+    <Compile Include="sqr.cs" />
+    <Compile Include="sqrt.cs" />
     <Compile Include="Substruction.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
