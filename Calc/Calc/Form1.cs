@@ -40,5 +40,17 @@ namespace Calc
             textBox3.Text = result.ToString();
             textBox2.Text = "";
         }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            textBox2.Text = "";
+            textBox3.Text = "";
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
