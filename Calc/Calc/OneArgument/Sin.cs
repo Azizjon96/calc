@@ -2,7 +2,7 @@
 
 namespace Calc.OneArgument
 {
-    class Sin: IoneCalculate
+   public class Sin: IoneCalculate
     {
         public double Calculate(double first)
         {

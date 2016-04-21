@@ -1,6 +1,6 @@
 ﻿namespace Calc.TwoArguments
 {
-    class Substruction : ICalculate
+   public  class Substruction : ICalculate
     {
         public double Calculate(double first, double second)
         {

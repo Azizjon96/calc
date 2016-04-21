@@ -1,6 +1,6 @@
 ﻿namespace Calc.OneArgument
 {
-    class Factorial: IoneCalculate
+  public class Factorial: IoneCalculate
     {
         public double Calculate(double first)
         {

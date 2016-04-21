@@ -2,7 +2,7 @@
 
 namespace Calc.OneArgument
 {
-    class kub: IoneCalculate
+    public class kub: IoneCalculate
     {
         public double Calculate(double first)
         {
