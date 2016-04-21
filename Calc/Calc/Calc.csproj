@@ -34,6 +34,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,30 +45,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Addition.cs" />
-    <Compile Include="CalculatorFactory.cs" />
-    <Compile Include="Cos.cs" />
-    <Compile Include="Ctg.cs" />
-    <Compile Include="Division.cs" />
-    <Compile Include="Factorial.cs" />
+    <Compile Include="TwoArguments\Addition.cs" />
+    <Compile Include="TwoArguments\CalculatorFactory.cs" />
+    <Compile Include="OneArgument\Cos.cs" />
+    <Compile Include="OneArgument\Ctg.cs" />
+    <Compile Include="TwoArguments\Division.cs" />
+    <Compile Include="OneArgument\Factorial.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="ICalculate.cs" />
-    <Compile Include="IoneCalculate.cs" />
-    <Compile Include="kub.cs" />
-    <Compile Include="Multiply.cs" />
+    <Compile Include="TwoArguments\ICalculate.cs" />
+    <Compile Include="OneArgument\IoneCalculate.cs" />
+    <Compile Include="OneArgument\kub.cs" />
+    <Compile Include="TwoArguments\Multiply.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sin.cs" />
-    <Compile Include="SingleCalcFactory.cs" />
-    <Compile Include="sqr.cs" />
-    <Compile Include="sqrt.cs" />
-    <Compile Include="Substruction.cs" />
-    <Compile Include="tg.cs" />
+    <Compile Include="OneArgument\Sin.cs" />
+    <Compile Include="OneArgument\SingleCalcFactory.cs" />
+    <Compile Include="OneArgument\sqr.cs" />
+    <Compile Include="OneArgument\sqrt.cs" />
+    <Compile Include="TwoArguments\Substruction.cs" />
+    <Compile Include="OneArgument\tg.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
