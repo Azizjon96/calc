@@ -15,8 +15,8 @@ namespace Calc.Tests
         public void SimpleTest()
         {
             IoneCalculate calc = new Sin();
-            double result = calc.Calculate(90);
-            Assert.AreEqual(0, result);
+            double result = Math.Round(calc.Calculate(Math.PI / 6), 3);
+            Assert.AreEqual(0.5, result);
         }
     }
 }

@@ -15,8 +15,8 @@ namespace Calc.Tests.OneArgument
         public void SimpleTest()
         {
             IoneCalculate calc = new tg();
-            double result = calc.Calculate(90);
-            Assert.AreEqual(0, result);
+            double result = Math.Round(calc.Calculate(Math.PI / 4), 3);
+            Assert.AreEqual(1, result);
         }
     }
 }
