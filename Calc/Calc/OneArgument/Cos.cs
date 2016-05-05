@@ -2,7 +2,7 @@
 
 namespace Calc.OneArgument
 {
-    internal class Cos : IoneCalculate
+    public class Cos : IoneCalculate
     {
         public double Calculate(double first)
         {
