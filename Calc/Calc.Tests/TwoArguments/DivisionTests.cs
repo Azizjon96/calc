@@ -1,17 +1,15 @@
 ﻿
 using Calc.TwoArguments;
 using NUnit.Framework;
-using NUnit.Framework.Internal;
-
 namespace Calc.Tests.TwoArguments
 {
     [TestFixture] 
-  public   class DivisionTest
+  public   class DivisionTests
     {
         [TestCase(100, 2, 50)]
         [TestCase(3, 3, 1)]
         [TestCase(3,2,1.5)]
-        public void AddTest(double first, double second, double expected)
+        public void DivTest(double first, double second, double expected)
         {
             ICalculate calc = new Division();
             double result = calc.Calculate(first,second);

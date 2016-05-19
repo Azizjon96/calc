@@ -43,19 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="OneArgument\CosTest.cs" />
-    <Compile Include="OneArgument\CtgTest.cs" />
-    <Compile Include="OneArgument\FactorialTest.cs" />
-    <Compile Include="OneArgument\kubTest.cs" />
-    <Compile Include="OneArgument\sqrTest.cs" />
-    <Compile Include="OneArgument\sqrtTest.cs" />
-    <Compile Include="OneArgument\tgTest.cs" />
+    <Compile Include="OneArgument\CosTests.cs" />
+    <Compile Include="OneArgument\CtgTests.cs" />
+    <Compile Include="OneArgument\FactorialTests.cs" />
+    <Compile Include="OneArgument\kubTests.cs" />
+    <Compile Include="OneArgument\sqrTests.cs" />
+    <Compile Include="OneArgument\sqrtTests.cs" />
+    <Compile Include="OneArgument\tgTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="OneArgument\SinTest.cs" />
-    <Compile Include="TwoArguments\AdditionTest.cs" />
-    <Compile Include="TwoArguments\DivisionTest.cs" />
-    <Compile Include="TwoArguments\MultiplyTest.cs" />
-    <Compile Include="TwoArguments\SubstructionTest.cs" />
+    <Compile Include="OneArgument\SinTests.cs" />
+    <Compile Include="TwoArguments\AdditionTests.cs" />
+    <Compile Include="TwoArguments\DivisionTests.cs" />
+    <Compile Include="TwoArguments\MultiplyTests.cs" />
+    <Compile Include="TwoArguments\SubstructionTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

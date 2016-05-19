@@ -4,7 +4,7 @@ using NUnit.Framework;
 namespace Calc.Tests.TwoArguments
 {
     [TestFixture]
-    public class AdditionTest
+    public class AdditionTests
     {
         [TestCase(2, 3, 5)]
         [TestCase(3, 3, 6)]
